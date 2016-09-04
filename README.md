@@ -1,5 +1,6 @@
 # Bootstrap-Scrollie-BgColor
 Изменение цвета фона страницы при скроллинге
+
 ## Подключение
 <pre>
 &lt;script&gt;
@@ -23,3 +24,6 @@ $(window).ready(function() {
   });
 &lt;/script&gt;
 </pre>
+
+#### По умолчанию используется свойство <code>background-color</code>
+#### Комбинация цвета секции определяется атрибутом <code>data-background</code>
